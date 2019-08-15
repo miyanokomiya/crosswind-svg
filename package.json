@@ -1,16 +1,27 @@
 {
   "name": "crosswind-svg",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "demo": "vue-cli-service demo",
+    "prepublish": "vue-cli-service lint && vue-cli-service build",
+    "start": "vue-cli-service serve",
     "test:unit": "vue-cli-service test:unit"
   },
-  "dependencies": {
-    "vue": "^2.6.10"
-  },
+  "main": "dist/crosswind-svg.common.js",
+  "module": "dist/crosswind-svg.esm.js",
+  "unpkg": "dist/crosswind-svg.umd.min.js",
+  "files": [
+    "dist/crosswind-svg.common.js",
+    "dist/crosswind-svg.umd.min.js",
+    "dist/crosswind-svg.umd.js",
+    "dist/crosswind-svg.esm.js",
+    "src",
+    "types/index.d.ts"
+  ],
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^23.1.4",
     "@vue/cli-plugin-eslint": "^3.10.0",
@@ -28,15 +39,20 @@
     "prettier": "^1.18.2",
     "ts-jest": "^23.0.0",
     "typescript": "^3.4.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue-cli-plugin-p11n": "^0.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "vue": "^2.6.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
+  "jsdelivr": "dist/crosswind-svg.umd.min.js",
   "lint-staged": {
     "*.{js,vue,ts}": [
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "sideeffects": false,
+  "types": "types/index.d.ts"
 }
