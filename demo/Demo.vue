@@ -2,7 +2,16 @@
   <div>
     <section>
       <h2>OpenCloseIcon</h2>
-      <OpenCloseIcon class="icon" />
+      <div @click="expanded = !expanded">
+        <OpenCloseIcon class="icon" :expanded="expanded" />
+        <OpenCloseIcon
+          class="icon"
+          :expanded="expanded"
+          rotate="45deg"
+          duration="1s"
+          inverse
+        />
+      </div>
     </section>
   </div>
 </template>
@@ -14,6 +23,11 @@ import OpenCloseIcon from "../src/components/OpenCloseIcon.vue";
 export default Vue.extend({
   components: {
     OpenCloseIcon
+  },
+  data() {
+    return {
+      expanded: false
+    };
   }
 });
 </script>
@@ -24,5 +38,7 @@ h2 {
 }
 .icon {
   width: 2rem;
+  margin-right: 1rem;
+  color: blue;
 }
 </style>

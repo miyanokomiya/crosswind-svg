@@ -102,7 +102,7 @@ var normalizeComponent_1 = normalizeComponent;
 const __vue_script__ = script;
 
 /* template */
-var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink"}},[_c('circle',{attrs:{"cx":"100","cy":"100","r":"100","fill":"red"}}),_vm._v(" "),_c('rect',{attrs:{"x":"130","y":"130","width":"300","height":"200","fill":"blue"}})])};
+var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{staticStyle:{"fill":"currentColor","stroke":"currentColor"},attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","viewBox":"0 0 64 64"}},[_vm._t("default")],2)};
 var __vue_staticRenderFns__ = [];
 
   /* style */
@@ -119,13 +119,51 @@ var __vue_staticRenderFns__ = [];
   
 
   
-  var OpenCloseIcon = normalizeComponent_1(
+  var SvgFlame = normalizeComponent_1(
     { render: __vue_render__, staticRenderFns: __vue_staticRenderFns__ },
     __vue_inject_styles__,
     __vue_script__,
     __vue_scope_id__,
     __vue_is_functional_template__,
     __vue_module_identifier__,
+    undefined,
+    undefined
+  );
+
+var script$1 = Vue.extend({
+  components: {
+    SvgFlame: SvgFlame
+  }
+});
+
+/* script */
+const __vue_script__$1 = script$1;
+
+/* template */
+var __vue_render__$1 = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('SvgFlame',[_c('circle',{attrs:{"cx":"100","cy":"100","r":"100","fill":"red"}}),_vm._v(" "),_c('rect',{attrs:{"x":"130","y":"130","width":"300","height":"200","fill":"blue"}})])};
+var __vue_staticRenderFns__$1 = [];
+
+  /* style */
+  const __vue_inject_styles__$1 = undefined;
+  /* scoped */
+  const __vue_scope_id__$1 = undefined;
+  /* module identifier */
+  const __vue_module_identifier__$1 = undefined;
+  /* functional template */
+  const __vue_is_functional_template__$1 = false;
+  /* style inject */
+  
+  /* style inject SSR */
+  
+
+  
+  var OpenCloseIcon = normalizeComponent_1(
+    { render: __vue_render__$1, staticRenderFns: __vue_staticRenderFns__$1 },
+    __vue_inject_styles__$1,
+    __vue_script__$1,
+    __vue_scope_id__$1,
+    __vue_is_functional_template__$1,
+    __vue_module_identifier__$1,
     undefined,
     undefined
   );
