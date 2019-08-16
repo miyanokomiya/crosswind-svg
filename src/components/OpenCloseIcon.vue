@@ -1,14 +1,15 @@
 <template>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-  >
+  <SvgFlame>
     <circle cx="100" cy="100" r="100" fill="red" />
     <rect x="130" y="130" width="300" height="200" fill="blue" />
-  </svg>
+  </SvgFlame>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-export default Vue.extend({});
+import SvgFlame from "./SvgFlame.vue";
+
+export default Vue.extend({
+  components: { SvgFlame }
+});
 </script>
