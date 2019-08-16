@@ -6,7 +6,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "demo": "vue-cli-service demo",
-    "prepublish": "vue-cli-service lint && vue-cli-service build",
     "start": "vue-cli-service serve",
     "test": "vue-cli-service test:unit"
   },
