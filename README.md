@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/miyanokomiya/crosswind-svg.svg?branch=master)](https://travis-ci.org/miyanokomiya/crosswind-svg.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/miyanokomiya/crosswind-svg/badge.svg?branch=master)](https://coveralls.io/github/miyanokomiya/crosswind-svg?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # crosswind-svg
 
 ## Project setup
