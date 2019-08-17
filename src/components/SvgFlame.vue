@@ -5,7 +5,13 @@
     viewBox="0 0 64 64"
     :style="style"
   >
-    <slot :black="black" :white="white" :transition="transition" />
+    <slot
+      :w="64"
+      :h="64"
+      :black="black"
+      :white="white"
+      :transition="transition"
+    />
   </svg>
 </template>
 

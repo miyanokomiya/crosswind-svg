@@ -25,7 +25,7 @@ exports[`Demo expanded:false 1`] = `
         <g
           stroke=""
           stroke-linecap="round"
-          stroke-width="6"
+          stroke-width="4"
         >
           <path
             d="M 32 20 32 44"
@@ -56,7 +56,7 @@ exports[`Demo expanded:false 1`] = `
         <g
           stroke="white"
           stroke-linecap="round"
-          stroke-width="6"
+          stroke-width="4"
         >
           <path
             d="M 32 20 32 44"
@@ -66,6 +66,162 @@ exports[`Demo expanded:false 1`] = `
           <path
             d="M 20 32 44 32"
             style="transform-origin: 50% 50%; transition: all 1s;"
+          />
+        </g>
+      </svg>
+       
+      <svg
+        class="icon red"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <circle
+          cx="32"
+          cy="32"
+          fill="white"
+          r="32"
+        />
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 32 20 32 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+    </div>
+  </section>
+   
+  <section>
+    <h2>
+      HamburgerArrowIcon
+    </h2>
+     
+    <div>
+      <svg
+        class="icon"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          fill="white"
+          height="64"
+          rx="6"
+          ry="6"
+          width="64"
+          x="0"
+          y="0"
+        />
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+       
+      <svg
+        class="icon"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          fill=""
+          height="64"
+          rx="6"
+          ry="6"
+          width="64"
+          x="0"
+          y="0"
+        />
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 1s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 1s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 1s;"
+          />
+        </g>
+      </svg>
+       
+      <svg
+        class="icon red"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          fill="white"
+          height="64"
+          rx="6"
+          ry="6"
+          width="64"
+          x="0"
+          y="0"
+        />
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
           />
         </g>
       </svg>
@@ -99,7 +255,7 @@ exports[`Demo expanded:true 1`] = `
         <g
           stroke=""
           stroke-linecap="round"
-          stroke-width="6"
+          stroke-width="4"
         >
           <path
             d="M 32 20 32 44"
@@ -130,7 +286,7 @@ exports[`Demo expanded:true 1`] = `
         <g
           stroke="white"
           stroke-linecap="round"
-          stroke-width="6"
+          stroke-width="4"
         >
           <path
             d="M 32 20 32 44"
@@ -140,6 +296,162 @@ exports[`Demo expanded:true 1`] = `
           <path
             d="M 20 32 44 32"
             style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-180deg);"
+          />
+        </g>
+      </svg>
+       
+      <svg
+        class="icon red"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <circle
+          cx="32"
+          cy="32"
+          fill="white"
+          r="32"
+        />
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 32 20 32 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+          />
+        </g>
+      </svg>
+    </div>
+  </section>
+   
+  <section>
+    <h2>
+      HamburgerArrowIcon
+    </h2>
+     
+    <div>
+      <svg
+        class="icon"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          fill="white"
+          height="64"
+          rx="6"
+          ry="6"
+          width="64"
+          x="0"
+          y="0"
+        />
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
+          />
+        </g>
+      </svg>
+       
+      <svg
+        class="icon"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          fill=""
+          height="64"
+          rx="6"
+          ry="6"
+          width="64"
+          x="0"
+          y="0"
+        />
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-45deg);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-180deg);"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(45deg);"
+          />
+        </g>
+      </svg>
+       
+      <svg
+        class="icon red"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          fill="white"
+          height="64"
+          rx="6"
+          ry="6"
+          width="64"
+          x="0"
+          y="0"
+        />
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
           />
         </g>
       </svg>
