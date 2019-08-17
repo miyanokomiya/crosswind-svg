@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HamburgerArrowIcon expanded:false 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+     
+    <!---->
+  </g>
+   
+  <g
+    stroke=""
+    stroke-linecap="round"
+    stroke-width="4"
+  >
+    <path
+      d="M 20 20 44 20"
+      style="transform-origin: 50% 50%; transition: all 0.5s;"
+    />
+     
+    <path
+      d="M 20 32 44 32"
+      style="transform-origin: 50% 50%; transition: all 0.5s;"
+    />
+     
+    <path
+      d="M 20 44 44 44"
+      style="transform-origin: 50% 50%; transition: all 0.5s;"
+    />
+  </g>
+</svg>
+`;
+
+exports[`HamburgerArrowIcon expanded:true 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+     
+    <!---->
+  </g>
+   
+  <g
+    stroke=""
+    stroke-linecap="round"
+    stroke-width="4"
+  >
+    <path
+      d="M 20 20 44 20"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
+    />
+     
+    <path
+      d="M 20 32 44 32"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+    />
+     
+    <path
+      d="M 20 44 44 44"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
+    />
+  </g>
+</svg>
+`;

@@ -22,44 +22,50 @@
         />
       </template>
     </ExampleSection>
+    <ExampleSection name="DirectionArrowIcon">
+      <template v-slot="{ list }">
+        <DirectionArrowIcon
+          v-for="(p, i) in list"
+          :key="i"
+          v-bind="p"
+          :to="to"
+          @click="click"
+        />
+      </template>
+    </ExampleSection>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
+import ExampleSection from "./ExampleSection.vue";
 import OpenCloseIcon from "../src/components/OpenCloseIcon.vue";
 import HamburgerArrowIcon from "../src/components/HamburgerArrowIcon.vue";
-import ExampleSection from "./ExampleSection.vue";
+import DirectionArrowIcon from "../src/components/DirectionArrowIcon.vue";
 
 export default Vue.extend({
   components: {
+    ExampleSection,
     OpenCloseIcon,
     HamburgerArrowIcon,
-    ExampleSection
+    DirectionArrowIcon
   },
   data() {
     return {
-      expanded: false
+      expanded: false,
+      toIndex: 0
     };
+  },
+  computed: {
+    to(): string {
+      return ["t", "r", "l", "b"][this.toIndex];
+    }
   },
   methods: {
     click() {
       this.expanded = !this.expanded;
+      this.toIndex = (this.toIndex + 1) % 4;
     }
   }
 });
 </script>
-
-<style>
-h2 {
-  border-bottom: 1px solid black;
-}
-.icon {
-  width: 2rem;
-  margin-right: 1rem;
-  color: blue;
-}
-.icon.red {
-  color: red;
-}
-</style>

@@ -40,5 +40,6 @@ h2 {
 }
 .icon.red {
   color: red;
+  width: 24px;
 }
 </style>

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Demo expanded:false 1`] = `
+exports[`Demo default 1`] = `
 <div>
   <section>
     <h2>
@@ -317,14 +317,10 @@ exports[`Demo expanded:false 1`] = `
       </svg>
     </div>
   </section>
-</div>
-`;
-
-exports[`Demo expanded:true 1`] = `
-<div>
+   
   <section>
     <h2>
-      OpenCloseIcon
+      DirectionArrowIcon
     </h2>
      
     <div>
@@ -353,13 +349,18 @@ exports[`Demo expanded:true 1`] = `
           stroke-width="4"
         >
           <path
-            d="M 32 20 32 44"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg) scaleX(-1);"
           />
            
           <path
             d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg) scaleY(-1);"
           />
         </g>
       </svg>
@@ -388,13 +389,18 @@ exports[`Demo expanded:true 1`] = `
           stroke-width="4"
         >
           <path
-            d="M 32 20 32 44"
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(45deg) scaleX(-1);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
             style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(90deg);"
           />
            
           <path
-            d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-180deg);"
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-45deg) scaleY(-1);"
           />
         </g>
       </svg>
@@ -419,176 +425,18 @@ exports[`Demo expanded:true 1`] = `
           stroke-width="4"
         >
           <path
-            d="M 32 20 32 44"
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg) scaleX(-1);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
             style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
           />
            
           <path
-            d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
-          />
-        </g>
-      </svg>
-      <svg
-        class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
-        viewBox="0 0 64 64"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          fill="white"
-        >
-          <!---->
-           
-          <rect
-            height="64"
-            rx="6"
-            ry="6"
-            width="64"
-            x="0"
-            y="0"
-          />
-        </g>
-         
-        <g
-          stroke=""
-          stroke-linecap="round"
-          stroke-width="4"
-        >
-          <path
-            d="M 32 20 32 44"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
-          />
-           
-          <path
-            d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
-          />
-        </g>
-      </svg>
-    </div>
-  </section>
-   
-  <section>
-    <h2>
-      HamburgerArrowIcon
-    </h2>
-     
-    <div>
-      <svg
-        class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
-        viewBox="0 0 64 64"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          fill="white"
-        >
-          <circle
-            cx="32"
-            cy="32"
-            r="32"
-          />
-           
-          <!---->
-        </g>
-         
-        <g
-          stroke=""
-          stroke-linecap="round"
-          stroke-width="4"
-        >
-          <path
-            d="M 20 20 44 20"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
-          />
-           
-          <path
-            d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
-          />
-           
-          <path
             d="M 20 44 44 44"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
-          />
-        </g>
-      </svg>
-      <svg
-        class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
-        viewBox="0 0 64 64"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          fill=""
-        >
-          <circle
-            cx="32"
-            cy="32"
-            r="32"
-          />
-           
-          <!---->
-        </g>
-         
-        <g
-          stroke="white"
-          stroke-linecap="round"
-          stroke-width="4"
-        >
-          <path
-            d="M 20 20 44 20"
-            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-45deg);"
-          />
-           
-          <path
-            d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(-180deg);"
-          />
-           
-          <path
-            d="M 20 44 44 44"
-            style="transform-origin: 50% 50%; transition: all 1s; transform: rotate(45deg);"
-          />
-        </g>
-      </svg>
-      <svg
-        class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
-        viewBox="0 0 64 64"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <g
-          fill="white"
-        >
-          <!---->
-           
-          <!---->
-        </g>
-         
-        <g
-          stroke=""
-          stroke-linecap="round"
-          stroke-width="4"
-        >
-          <path
-            d="M 20 20 44 20"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
-          />
-           
-          <path
-            d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
-          />
-           
-          <path
-            d="M 20 44 44 44"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg) scaleY(-1);"
           />
         </g>
       </svg>
@@ -621,17 +469,17 @@ exports[`Demo expanded:true 1`] = `
         >
           <path
             d="M 20 20 44 20"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg) scaleX(-1);"
           />
            
           <path
             d="M 20 32 44 32"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
           />
            
           <path
             d="M 20 44 44 44"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg) scaleY(-1);"
           />
         </g>
       </svg>
