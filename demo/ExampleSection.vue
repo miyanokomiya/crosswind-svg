@@ -12,7 +12,8 @@
             duration: '1s',
             inverse: true
           },
-          { expanded, class: 'icon red', rotate: '180deg' }
+          { expanded, class: 'icon red', rotate: '180deg', shape: '' },
+          { expanded, class: 'icon red', rotate: '180deg', shape: 'rect' }
         ]"
       />
     </div>

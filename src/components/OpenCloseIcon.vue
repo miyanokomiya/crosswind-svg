@@ -1,7 +1,6 @@
 <template>
-  <SvgFlame v-bind="{ rotate, inverse, duration }">
+  <SvgFlame v-bind="{ shape, rotate, inverse, duration }">
     <template #default="{ black, white, transition }">
-      <circle cx="32" cy="32" r="32" :fill="white" />
       <g stroke-width="4" :stroke="black" stroke-linecap="round">
         <path
           d="M 32 20 32 44"
@@ -25,6 +24,7 @@ import SvgFlame from "./SvgFlame.vue";
 export default Vue.extend({
   components: { SvgFlame },
   props: {
+    shape: String,
     rotate: String,
     inverse: Boolean,
     duration: String,

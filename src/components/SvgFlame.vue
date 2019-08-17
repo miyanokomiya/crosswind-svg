@@ -5,6 +5,18 @@
     viewBox="0 0 64 64"
     :style="style"
   >
+    <g :fill="white">
+      <circle v-if="shape === 'circle'" cx="32" cy="32" r="32" />
+      <rect
+        v-if="shape === 'rect'"
+        x="0"
+        y="0"
+        rx="6"
+        ry="6"
+        width="64"
+        height="64"
+      />
+    </g>
     <slot
       :w="64"
       :h="64"
@@ -18,8 +30,14 @@
 <script lang="ts">
 import Vue from "vue";
 
+type ShapeType = "" | "circle" | "rect";
+
 export default Vue.extend({
   props: {
+    shape: {
+      type: String as Vue.PropType<ShapeType>,
+      default: "circle"
+    },
     rotate: {
       type: String,
       default: "0"
