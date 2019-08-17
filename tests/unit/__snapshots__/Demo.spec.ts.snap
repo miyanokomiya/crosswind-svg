@@ -115,6 +115,42 @@ exports[`Demo default 1`] = `
         xmlns:xlink="http://www.w3.org/1999/xlink"
       >
         <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 32 20 32 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
           fill="white"
         >
           <rect
@@ -129,6 +165,42 @@ exports[`Demo default 1`] = `
          
         <g
           stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 32 20 32 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
           stroke-linecap="round"
           stroke-width="4"
         >
@@ -274,6 +346,47 @@ exports[`Demo default 1`] = `
         xmlns:xlink="http://www.w3.org/1999/xlink"
       >
         <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
           fill="white"
         >
           <rect
@@ -288,6 +401,47 @@ exports[`Demo default 1`] = `
          
         <g
           stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
           stroke-linecap="round"
           stroke-width="4"
         >
@@ -438,6 +592,47 @@ exports[`Demo default 1`] = `
         xmlns:xlink="http://www.w3.org/1999/xlink"
       >
         <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
           fill="white"
         >
           <rect
@@ -468,6 +663,371 @@ exports[`Demo default 1`] = `
           <path
             d="M 20 44 44 44"
             style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s;"
+          />
+        </g>
+      </svg>
+    </div>
+  </section>
+   
+  <section>
+    <h2>
+      KebabCloseIcon
+    </h2>
+     
+    <div>
+      <svg
+        class="icon"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill="white"
+        >
+          <circle
+            cx="32"
+            cy="32"
+            r="32"
+          />
+        </g>
+         
+        <g
+          fill=""
+          style="transform-origin: 50% 50%; transition: all 0.5s;"
+        >
+          <circle
+            cx="32"
+            cy="18"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="32"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="46"
+            r="4"
+          />
+        </g>
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
+        >
+          <path
+            d="M 20 32 44 32"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <circle
+            cx="32"
+            cy="32"
+            r="32"
+          />
+        </g>
+         
+        <g
+          fill="white"
+          style="transform-origin: 50% 50%; transition: all 1s;"
+        >
+          <circle
+            cx="32"
+            cy="18"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="32"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="46"
+            r="4"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+          style="transform-origin: 50% 50%; transition: all 1s; transform: scaleX(0);"
+        >
+          <path
+            d="M 20 32 44 32"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon red"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill="white"
+        >
+          <circle
+            cx="32"
+            cy="32"
+            r="32"
+          />
+        </g>
+         
+        <g
+          fill=""
+          style="transform-origin: 50% 50%; transition: all 0.5s;"
+        >
+          <circle
+            cx="32"
+            cy="18"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="32"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="46"
+            r="4"
+          />
+        </g>
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
+        >
+          <path
+            d="M 20 32 44 32"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon red"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill="white"
+          style="transform-origin: 50% 50%; transition: all 0.5s;"
+        >
+          <circle
+            cx="32"
+            cy="18"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="32"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="46"
+            r="4"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
+        >
+          <path
+            d="M 20 32 44 32"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill="white"
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill=""
+          style="transform-origin: 50% 50%; transition: all 0.5s;"
+        >
+          <circle
+            cx="32"
+            cy="18"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="32"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="46"
+            r="4"
+          />
+        </g>
+         
+        <g
+          stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
+        >
+          <path
+            d="M 20 32 44 32"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill="white"
+          style="transform-origin: 50% 50%; transition: all 0.5s;"
+        >
+          <circle
+            cx="32"
+            cy="18"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="32"
+            r="4"
+          />
+           
+          <circle
+            cx="32"
+            cy="46"
+            r="4"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
+        >
+          <path
+            d="M 20 32 44 32"
           />
         </g>
       </svg>
@@ -602,6 +1162,47 @@ exports[`Demo default 1`] = `
         xmlns:xlink="http://www.w3.org/1999/xlink"
       >
         <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg) scaleX(-1);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg) scaleY(-1);"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
           fill="white"
         >
           <rect
@@ -616,6 +1217,47 @@ exports[`Demo default 1`] = `
          
         <g
           stroke=""
+          stroke-linecap="round"
+          stroke-width="4"
+        >
+          <path
+            d="M 20 20 44 20"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg) scaleX(-1);"
+          />
+           
+          <path
+            d="M 20 32 44 32"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
+          />
+           
+          <path
+            d="M 20 44 44 44"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg) scaleY(-1);"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          stroke="white"
           stroke-linecap="round"
           stroke-width="4"
         >
@@ -669,7 +1311,7 @@ exports[`Demo default 1`] = `
         >
           <path
             d="M 16 32 28 44 50 22"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(1);"
           />
         </g>
       </svg>
@@ -698,7 +1340,7 @@ exports[`Demo default 1`] = `
         >
           <path
             d="M 16 32 28 44 50 22"
-            style="transform-origin: 50% 50%; transition: all 1s; transform: scale(0);"
+            style="transform-origin: 50% 50%; transition: all 1s; transform: scale(1);"
           />
         </g>
       </svg>
@@ -727,13 +1369,45 @@ exports[`Demo default 1`] = `
         >
           <path
             d="M 16 32 28 44 50 22"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(1);"
           />
         </g>
       </svg>
       <svg
         class="icon red"
         style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill="none"
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="6"
+        >
+          <path
+            d="M 16 32 28 44 50 22"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(1);"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -759,7 +1433,39 @@ exports[`Demo default 1`] = `
         >
           <path
             d="M 16 32 28 44 50 22"
-            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(1);"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill="none"
+          stroke="white"
+          stroke-linecap="round"
+          stroke-width="6"
+        >
+          <path
+            d="M 16 32 28 44 50 22"
+            style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(1);"
           />
         </g>
       </svg>
@@ -791,7 +1497,7 @@ exports[`Demo default 1`] = `
          
         <g
           fill=""
-          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0.6);"
         >
           <circle
             cx="32"
@@ -819,7 +1525,7 @@ exports[`Demo default 1`] = `
          
         <g
           fill="white"
-          style="transform-origin: 50% 50%; transition: all 1s; transform: scale(0);"
+          style="transform-origin: 50% 50%; transition: all 1s; transform: scale(0.6);"
         >
           <circle
             cx="32"
@@ -847,7 +1553,7 @@ exports[`Demo default 1`] = `
          
         <g
           fill=""
-          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0.6);"
         >
           <circle
             cx="32"
@@ -859,6 +1565,40 @@ exports[`Demo default 1`] = `
       <svg
         class="icon red"
         style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill="white"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0.6);"
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -878,7 +1618,41 @@ exports[`Demo default 1`] = `
          
         <g
           fill=""
-          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0.6);"
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+      </svg>
+      <svg
+        class="icon green"
+        style="transform: rotate(-45deg); fill: currentColor; stroke: currentColor; user-select: none;"
+        viewBox="0 0 64 64"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <g
+          fill=""
+        >
+          <rect
+            height="64"
+            rx="6"
+            ry="6"
+            width="64"
+            x="0"
+            y="0"
+          />
+        </g>
+         
+        <g
+          fill="white"
+          style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0.6);"
         >
           <rect
             height="64"

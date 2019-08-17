@@ -12,7 +12,14 @@
             inverse: true
           },
           { class: 'icon red', rotate: '180deg', shape: '' },
-          { class: 'icon red', rotate: '180deg', shape: 'rect' }
+          { class: 'icon red', rotate: '180deg', inverse: true, shape: 'rect' },
+          { class: 'icon green', shape: 'rect' },
+          {
+            class: 'icon green',
+            rotate: '-45deg',
+            inverse: true,
+            shape: 'rect'
+          }
         ]"
       />
     </div>
@@ -36,10 +43,14 @@ h2 {
 .icon {
   width: 2rem;
   margin-right: 1rem;
-  color: blue;
+  color: #6088c6;
 }
 .icon.red {
-  color: red;
+  color: #eb8686;
   width: 24px;
+}
+.icon.green {
+  color: #8cd790;
+  width: 40px;
 }
 </style>

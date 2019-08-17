@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KebabCloseIcon expanded:false 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+  </g>
+   
+  <g
+    fill=""
+    style="transform-origin: 50% 50%; transition: all 0.5s;"
+  >
+    <circle
+      cx="32"
+      cy="18"
+      r="4"
+    />
+     
+    <circle
+      cx="32"
+      cy="32"
+      r="4"
+    />
+     
+    <circle
+      cx="32"
+      cy="46"
+      r="4"
+    />
+  </g>
+   
+  <g
+    stroke=""
+    stroke-linecap="round"
+    stroke-width="4"
+    style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
+  >
+    <path
+      d="M 20 32 44 32"
+    />
+  </g>
+</svg>
+`;
+
+exports[`KebabCloseIcon expanded:true 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+  </g>
+   
+  <g
+    fill=""
+    style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleY(0);"
+  >
+    <circle
+      cx="32"
+      cy="18"
+      r="4"
+    />
+     
+    <circle
+      cx="32"
+      cy="32"
+      r="4"
+    />
+     
+    <circle
+      cx="32"
+      cy="46"
+      r="4"
+    />
+  </g>
+   
+  <g
+    stroke=""
+    stroke-linecap="round"
+    stroke-width="4"
+    style="transform-origin: 50% 50%; transition: all 0.5s;"
+  >
+    <path
+      d="M 20 32 44 32"
+    />
+  </g>
+</svg>
+`;

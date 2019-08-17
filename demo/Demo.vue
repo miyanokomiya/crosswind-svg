@@ -33,6 +33,17 @@
         />
       </template>
     </ExampleSection>
+    <ExampleSection name="KebabCloseIcon">
+      <template v-slot="{ list }">
+        <KebabCloseIcon
+          v-for="(p, i) in list"
+          :key="i"
+          v-bind="p"
+          :expanded="expanded"
+          @click="click"
+        />
+      </template>
+    </ExampleSection>
     <ExampleSection name="DirectionArrowIcon">
       <template v-slot="{ list }">
         <DirectionArrowIcon
@@ -75,6 +86,7 @@ import ExampleSection from "./ExampleSection.vue";
 import OpenCloseIcon from "../src/components/OpenCloseIcon.vue";
 import HamburgerArrowIcon from "../src/components/HamburgerArrowIcon.vue";
 import HamburgerCloseIcon from "../src/components/HamburgerCloseIcon.vue";
+import KebabCloseIcon from "../src/components/KebabCloseIcon.vue";
 import DirectionArrowIcon from "../src/components/DirectionArrowIcon.vue";
 import CheckIcon from "../src/components/CheckIcon.vue";
 import CheckShapeIcon from "../src/components/CheckShapeIcon.vue";
@@ -85,6 +97,7 @@ export default Vue.extend({
     OpenCloseIcon,
     HamburgerArrowIcon,
     HamburgerCloseIcon,
+    KebabCloseIcon,
     DirectionArrowIcon,
     CheckIcon,
     CheckShapeIcon
@@ -93,7 +106,7 @@ export default Vue.extend({
     return {
       expanded: false,
       toIndex: 0,
-      checked: false
+      checked: true
     };
   },
   computed: {
