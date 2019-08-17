@@ -50,7 +50,8 @@ export default Vue.extend({
       return {
         transform: `rotate(${this.rotate})`,
         fill: "currentColor",
-        stroke: "currentColor"
+        stroke: "currentColor",
+        "user-select": "none"
       };
     },
     transition(): string {

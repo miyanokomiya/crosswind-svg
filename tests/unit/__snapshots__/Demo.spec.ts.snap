@@ -10,7 +10,7 @@ exports[`Demo default 1`] = `
     <div>
       <svg
         class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -43,7 +43,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -76,7 +76,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -109,7 +109,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -154,7 +154,7 @@ exports[`Demo default 1`] = `
     <div>
       <svg
         class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -192,7 +192,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -230,7 +230,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -268,7 +268,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -318,7 +318,7 @@ exports[`Demo default 1`] = `
     <div>
       <svg
         class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -356,7 +356,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -394,7 +394,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -432,7 +432,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -482,7 +482,7 @@ exports[`Demo default 1`] = `
     <div>
       <svg
         class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -520,7 +520,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -558,7 +558,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -596,7 +596,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -646,7 +646,7 @@ exports[`Demo default 1`] = `
     <div>
       <svg
         class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -675,7 +675,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -704,7 +704,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -733,7 +733,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -774,7 +774,7 @@ exports[`Demo default 1`] = `
     <div>
       <svg
         class="icon"
-        style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -802,7 +802,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon"
-        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(45deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -830,7 +830,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -858,7 +858,7 @@ exports[`Demo default 1`] = `
       </svg>
       <svg
         class="icon red"
-        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor;"
+        style="transform: rotate(180deg); fill: currentColor; stroke: currentColor; user-select: none;"
         viewBox="0 0 64 64"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"

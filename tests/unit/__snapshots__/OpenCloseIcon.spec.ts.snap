@@ -2,7 +2,7 @@
 
 exports[`OpenCloseIcon expanded:false 1`] = `
 <svg
-  style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
   viewBox="0 0 64 64"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -37,7 +37,7 @@ exports[`OpenCloseIcon expanded:false 1`] = `
 
 exports[`OpenCloseIcon expanded:true 1`] = `
 <svg
-  style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
   viewBox="0 0 64 64"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
