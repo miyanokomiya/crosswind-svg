@@ -4,35 +4,36 @@
 
 # crosswind-svg
 
+## Demo
+https://romantic-wescoff-efc16b.netlify.com/
+
 ## Project setup
-```
+### Setup
+```sh
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
-```
-yarn run serve
+```sh
+yarn demo
 ```
 
 ### Compiles and minifies for production
-```
-yarn run build
+```sh
+yarn build
 ```
 
-### Run your tests
+### Compiles demo for production
+```sh
+sh demo-build.sh
 ```
-yarn run test
+
+### Run tests
+```sh
+yarn test
 ```
 
 ### Lints and fixes files
+```sh
+yarn lint
 ```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
