@@ -1,40 +1,10 @@
-<template>
-  <SvgFlame v-bind="{ shape, rotate, inverse, duration }" v-on="$listeners">
-    <template #default="{ black, white, transition }">
-      <g stroke-width="4" :stroke="black" stroke-linecap="round">
-        <path
-          d="M 20 20 44 20"
-          style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: transformSet.top }"
-        />
-        <path
-          d="M 20 32 44 32"
-          style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: transformSet.middle }"
-        />
-        <path
-          d="M 20 44 44 44"
-          style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: transformSet.bottom }"
-        />
-      </g>
-    </template>
-  </SvgFlame>
-</template>
-
 <script lang="ts">
-import Vue from "vue";
-import SvgFlame from "./SvgFlame.vue";
+import HamburgerArrowIcon from "./HamburgerArrowIcon.vue";
 
 type ToType = "t" | "r" | "b" | "l";
 
-export default Vue.extend({
-  components: { SvgFlame },
+export default HamburgerArrowIcon.extend({
   props: {
-    shape: String,
-    rotate: String,
-    inverse: Boolean,
-    duration: String,
     to: { type: String as Vue.PropType<ToType>, default: "r" }
   },
   computed: {

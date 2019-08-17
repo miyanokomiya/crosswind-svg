@@ -5,17 +5,17 @@
         <path
           d="M 20 20 44 20"
           style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: expanded ? 'rotate(-45deg)' : '' }"
+          :style="{ transition, transform: transformSet.top }"
         />
         <path
           d="M 20 32 44 32"
           style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: expanded ? 'rotate(-180deg)' : '' }"
+          :style="{ transition, transform: transformSet.middle }"
         />
         <path
           d="M 20 44 44 44"
           style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: expanded ? 'rotate(45deg)' : '' }"
+          :style="{ transition, transform: transformSet.bottom }"
         />
       </g>
     </template>
@@ -34,6 +34,21 @@ export default Vue.extend({
     inverse: Boolean,
     duration: String,
     expanded: { type: Boolean, default: false }
+  },
+  computed: {
+    transformSet(): { top: string; middle: string; bottom: string } {
+      if (this.expanded)
+        return {
+          top: "rotate(-45deg)",
+          middle: "rotate(-180deg)",
+          bottom: "rotate(45deg)"
+        };
+      return {
+        top: "",
+        middle: "",
+        bottom: ""
+      };
+    }
   }
 });
 </script>
