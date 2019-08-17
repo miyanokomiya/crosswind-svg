@@ -1,14 +1,12 @@
 {
   "name": "crosswind-svg",
   "version": "0.1.0",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "demo": "vue-cli-service demo",
-    "start": "vue-cli-service serve",
-    "test": "vue-cli-service test:unit --coverage"
+  "author": "miyanokomiya (https://github.com/miyanokomiya)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/miyanokomiya/crosswind-svg.git"
   },
+  "license" : "MIT",
   "main": "dist/crosswind-svg.common.js",
   "module": "dist/crosswind-svg.esm.js",
   "unpkg": "dist/crosswind-svg.umd.min.js",
@@ -20,6 +18,14 @@
     "src",
     "types/index.d.ts"
   ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "demo": "vue-cli-service demo",
+    "start": "vue-cli-service serve",
+    "test": "vue-cli-service test:unit --coverage"
+  },
   "dependencies": {
     "vue": "^2.6.10"
   },
