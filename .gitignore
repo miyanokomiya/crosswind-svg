@@ -3,6 +3,7 @@ node_modules
 public
 dist/*.gz
 dist/*.map
+demo/dist
 coverage
 docs/.vuepress/dist
 
@@ -23,4 +24,3 @@ docs/.vuepress/dist
 *.njsproj
 *.sln
 *.sw*
-  
