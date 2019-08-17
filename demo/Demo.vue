@@ -2,12 +2,24 @@
   <div>
     <ExampleSection name="OpenCloseIcon">
       <template v-slot="{ list }">
-        <OpenCloseIcon v-for="(p, i) in list" :key="i" v-bind="p" />
+        <OpenCloseIcon
+          v-for="(p, i) in list"
+          :key="i"
+          v-bind="p"
+          :expanded="expanded"
+          @click="click"
+        />
       </template>
     </ExampleSection>
     <ExampleSection name="HamburgerArrowIcon">
       <template v-slot="{ list }">
-        <HamburgerArrowIcon v-for="(p, i) in list" :key="i" v-bind="p" />
+        <HamburgerArrowIcon
+          v-for="(p, i) in list"
+          :key="i"
+          v-bind="p"
+          :expanded="expanded"
+          @click="click"
+        />
       </template>
     </ExampleSection>
   </div>
@@ -29,6 +41,11 @@ export default Vue.extend({
     return {
       expanded: false
     };
+  },
+  methods: {
+    click() {
+      this.expanded = !this.expanded;
+    }
   }
 });
 </script>

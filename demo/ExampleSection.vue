@@ -1,19 +1,18 @@
 <template>
   <section>
     <h2>{{ name }}</h2>
-    <div @click="click">
+    <div>
       <slot
         :list="[
-          { expanded, class: 'icon' },
+          { class: 'icon' },
           {
-            expanded,
             class: 'icon',
             rotate: '45deg',
             duration: '1s',
             inverse: true
           },
-          { expanded, class: 'icon red', rotate: '180deg', shape: '' },
-          { expanded, class: 'icon red', rotate: '180deg', shape: 'rect' }
+          { class: 'icon red', rotate: '180deg', shape: '' },
+          { class: 'icon red', rotate: '180deg', shape: 'rect' }
         ]"
       />
     </div>
@@ -26,16 +25,6 @@ import Vue from "vue";
 export default Vue.extend({
   props: {
     name: { type: String, default: "" }
-  },
-  data() {
-    return {
-      expanded: false
-    };
-  },
-  methods: {
-    click() {
-      this.expanded = !this.expanded;
-    }
   }
 });
 </script>

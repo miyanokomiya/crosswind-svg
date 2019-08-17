@@ -1,5 +1,5 @@
 <template>
-  <SvgFlame v-bind="{ shape, rotate, inverse, duration }">
+  <SvgFlame v-bind="{ shape, rotate, inverse, duration }" v-on="$listeners">
     <template #default="{ black, white, transition }">
       <g stroke-width="4" :stroke="black" stroke-linecap="round">
         <path

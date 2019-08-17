@@ -4,6 +4,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 64 64"
     :style="style"
+    v-on="$listeners"
   >
     <g :fill="white">
       <circle v-if="shape === 'circle'" cx="32" cy="32" r="32" />
