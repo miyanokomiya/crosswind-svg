@@ -1,33 +1,15 @@
 <template>
   <div>
-    <section>
-      <h2>OpenCloseIcon</h2>
-      <div @click="expanded = !expanded">
-        <OpenCloseIcon class="icon" :expanded="expanded" />
-        <OpenCloseIcon
-          class="icon"
-          :expanded="expanded"
-          rotate="45deg"
-          duration="1s"
-          inverse
-        />
-        <OpenCloseIcon class="icon red" :expanded="expanded" />
-      </div>
-    </section>
-    <section>
-      <h2>HamburgerArrowIcon</h2>
-      <div @click="expanded = !expanded">
-        <HamburgerArrowIcon class="icon" :expanded="expanded" />
-        <HamburgerArrowIcon
-          class="icon"
-          :expanded="expanded"
-          rotate="45deg"
-          duration="1s"
-          inverse
-        />
-        <HamburgerArrowIcon class="icon red" :expanded="expanded" />
-      </div>
-    </section>
+    <ExampleSection name="OpenCloseIcon">
+      <template v-slot="{ list }">
+        <OpenCloseIcon v-for="(p, i) in list" :key="i" v-bind="p" />
+      </template>
+    </ExampleSection>
+    <ExampleSection name="HamburgerArrowIcon">
+      <template v-slot="{ list }">
+        <HamburgerArrowIcon v-for="(p, i) in list" :key="i" v-bind="p" />
+      </template>
+    </ExampleSection>
   </div>
 </template>
 
@@ -35,11 +17,13 @@
 import Vue from "vue";
 import OpenCloseIcon from "../src/components/OpenCloseIcon.vue";
 import HamburgerArrowIcon from "../src/components/HamburgerArrowIcon.vue";
+import ExampleSection from "./ExampleSection.vue";
 
 export default Vue.extend({
   components: {
     OpenCloseIcon,
-    HamburgerArrowIcon
+    HamburgerArrowIcon,
+    ExampleSection
   },
   data() {
     return {
