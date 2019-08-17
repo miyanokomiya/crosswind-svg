@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/miyanokomiya/crosswind-svg.git"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "main": "dist/crosswind-svg.common.js",
   "module": "dist/crosswind-svg.esm.js",
   "unpkg": "dist/crosswind-svg.umd.min.js",
@@ -23,6 +23,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "demo": "vue-cli-service demo",
+    "demo:build": "sh demo-build.sh",
     "start": "vue-cli-service serve",
     "test": "vue-cli-service test:unit --coverage"
   },

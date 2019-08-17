@@ -133,7 +133,7 @@ var normalizeComponent_1 = normalizeComponent;
 const __vue_script__ = script;
 
 /* template */
-var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{style:(_vm.style),attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","viewBox":"0 0 64 64"}},[_c('g',{attrs:{"fill":_vm.white}},[(_vm.shape === 'circle')?_c('circle',{attrs:{"cx":"32","cy":"32","r":"32"}}):_vm._e(),_vm._v(" "),(_vm.shape === 'rect')?_c('rect',{attrs:{"x":"0","y":"0","rx":"6","ry":"6","width":"64","height":"64"}}):_vm._e()]),_vm._v(" "),_vm._t("default",null,{"w":64,"h":64,"black":_vm.black,"white":_vm.white,"transition":_vm.transition})],2)};
+var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',_vm._g({style:(_vm.style),attrs:{"xmlns":"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink","viewBox":"0 0 64 64"}},_vm.$listeners),[_c('g',{attrs:{"fill":_vm.white}},[(_vm.shape === 'circle')?_c('circle',{attrs:{"cx":"32","cy":"32","r":"32"}}):_vm._e(),_vm._v(" "),(_vm.shape === 'rect')?_c('rect',{attrs:{"x":"0","y":"0","rx":"6","ry":"6","width":"64","height":"64"}}):_vm._e()]),_vm._v(" "),_vm._t("default",null,{"w":64,"h":64,"black":_vm.black,"white":_vm.white,"transition":_vm.transition})],2)};
 var __vue_staticRenderFns__ = [];
 
   /* style */
@@ -181,11 +181,11 @@ var script$1 = Vue.extend({
 const __vue_script__$1 = script$1;
 
 /* template */
-var __vue_render__$1 = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('SvgFlame',_vm._b({scopedSlots:_vm._u([{key:"default",fn:function(ref){
+var __vue_render__$1 = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('SvgFlame',_vm._g(_vm._b({scopedSlots:_vm._u([{key:"default",fn:function(ref){
 var black = ref.black;
 var white = ref.white;
 var transition = ref.transition;
-return [_c('g',{attrs:{"stroke-width":"4","stroke":black,"stroke-linecap":"round"}},[_c('path',{staticStyle:{"transform-origin":"50% 50%"},style:({ transition: transition, transform: _vm.expanded ? 'rotate(90deg)' : '' }),attrs:{"d":"M 32 20 32 44"}}),_vm._v(" "),_c('path',{staticStyle:{"transform-origin":"50% 50%"},style:({ transition: transition, transform: _vm.expanded ? 'rotate(-180deg)' : '' }),attrs:{"d":"M 20 32 44 32"}})])]}}])},'SvgFlame',{ shape: _vm.shape, rotate: _vm.rotate, inverse: _vm.inverse, duration: _vm.duration },false))};
+return [_c('g',{attrs:{"stroke-width":"4","stroke":black,"stroke-linecap":"round"}},[_c('path',{staticStyle:{"transform-origin":"50% 50%"},style:({ transition: transition, transform: _vm.expanded ? 'rotate(90deg)' : '' }),attrs:{"d":"M 32 20 32 44"}}),_vm._v(" "),_c('path',{staticStyle:{"transform-origin":"50% 50%"},style:({ transition: transition, transform: _vm.expanded ? 'rotate(-180deg)' : '' }),attrs:{"d":"M 20 32 44 32"}})])]}}])},'SvgFlame',{ shape: _vm.shape, rotate: _vm.rotate, inverse: _vm.inverse, duration: _vm.duration },false),_vm.$listeners))};
 var __vue_staticRenderFns__$1 = [];
 
   /* style */
