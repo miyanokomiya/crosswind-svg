@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OpenCloseIcon expanded:false 1`] = `
+exports[`CheckIcon checked:false 1`] = `
 <svg
   style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
   viewBox="0 0 64 64"
@@ -18,24 +18,20 @@ exports[`OpenCloseIcon expanded:false 1`] = `
   </g>
    
   <g
+    fill="none"
     stroke=""
     stroke-linecap="round"
-    stroke-width="4"
+    stroke-width="6"
   >
     <path
-      d="M 32 20 32 44"
-      style="transform-origin: 50% 50%; transition: all 0.5s;"
-    />
-     
-    <path
-      d="M 20 32 44 32"
-      style="transform-origin: 50% 50%; transition: all 0.5s;"
+      d="M 16 32 28 44 50 22"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(0);"
     />
   </g>
 </svg>
 `;
 
-exports[`OpenCloseIcon expanded:true 1`] = `
+exports[`CheckIcon checked:true 1`] = `
 <svg
   style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
   viewBox="0 0 64 64"
@@ -53,18 +49,14 @@ exports[`OpenCloseIcon expanded:true 1`] = `
   </g>
    
   <g
+    fill="none"
     stroke=""
     stroke-linecap="round"
-    stroke-width="4"
+    stroke-width="6"
   >
     <path
-      d="M 32 20 32 44"
-      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(90deg);"
-    />
-     
-    <path
-      d="M 20 32 44 32"
-      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+      d="M 16 32 28 44 50 22"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: scale(1);"
     />
   </g>
 </svg>

@@ -15,8 +15,6 @@ exports[`DirectionArrowIcon to:d 1`] = `
       cy="32"
       r="32"
     />
-     
-    <!---->
   </g>
    
   <g
@@ -57,8 +55,6 @@ exports[`DirectionArrowIcon to:l 1`] = `
       cy="32"
       r="32"
     />
-     
-    <!---->
   </g>
    
   <g
@@ -99,8 +95,6 @@ exports[`DirectionArrowIcon to:r 1`] = `
       cy="32"
       r="32"
     />
-     
-    <!---->
   </g>
    
   <g
@@ -141,8 +135,6 @@ exports[`DirectionArrowIcon to:u 1`] = `
       cy="32"
       r="32"
     />
-     
-    <!---->
   </g>
    
   <g

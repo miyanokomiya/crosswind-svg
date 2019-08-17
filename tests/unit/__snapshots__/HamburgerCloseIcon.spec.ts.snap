@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HamburgerArrowIcon expanded:false 1`] = `
+exports[`HamburgerCloseIcon expanded:false 1`] = `
 <svg
   style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
   viewBox="0 0 64 64"
@@ -40,7 +40,7 @@ exports[`HamburgerArrowIcon expanded:false 1`] = `
 </svg>
 `;
 
-exports[`HamburgerArrowIcon expanded:true 1`] = `
+exports[`HamburgerCloseIcon expanded:true 1`] = `
 <svg
   style="transform: rotate(0); fill: currentColor; stroke: currentColor;"
   viewBox="0 0 64 64"
@@ -64,17 +64,17 @@ exports[`HamburgerArrowIcon expanded:true 1`] = `
   >
     <path
       d="M 20 20 44 20"
-      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: translateY(12px);"
     />
      
     <path
       d="M 20 32 44 32"
-      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
     />
      
     <path
       d="M 20 44 44 44"
-      style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: translateY(-12px);"
     />
   </g>
 </svg>
