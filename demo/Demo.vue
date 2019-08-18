@@ -110,6 +110,17 @@
         />
       </template>
     </ExampleSection>
+    <ExampleSection name="StarIcon">
+      <template v-slot="{ list }">
+        <StarIcon
+          v-for="(p, i) in list"
+          :key="i"
+          v-bind="p"
+          :liked="expanded"
+          @click="click"
+        />
+      </template>
+    </ExampleSection>
   </div>
 </template>
 
@@ -126,6 +137,7 @@ import CheckShapeIcon from "../src/components/CheckShapeIcon.vue";
 import PlayPauseIcon from "../src/components/PlayPauseIcon.vue";
 import LockIcon from "../src/components/LockIcon.vue";
 import LikeIcon from "../src/components/LikeIcon.vue";
+import StarIcon from "../src/components/StarIcon.vue";
 
 export default Vue.extend({
   components: {
@@ -139,7 +151,8 @@ export default Vue.extend({
     CheckShapeIcon,
     PlayPauseIcon,
     LockIcon,
-    LikeIcon
+    LikeIcon,
+    StarIcon
   },
   data() {
     return {

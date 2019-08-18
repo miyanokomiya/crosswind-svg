@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarIcon liked:false 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+  </g>
+   
+  <g
+    stroke=""
+  >
+    <g
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="4"
+      style="transition: all 0.5s; transform-origin: 50% 50%;"
+    >
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+      />
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+        style="transform-origin: 50% 50%; transform: scaleX(-1);"
+      />
+    </g>
+     
+    <g
+      fill=""
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="4"
+      style="transition: all 0.5s; transform-origin: 50% 50%; transform: scale(0);"
+    >
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+      />
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+        style="transform-origin: 50% 50%; transform: scaleX(-1);"
+      />
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`StarIcon liked:true 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+  </g>
+   
+  <g
+    stroke=""
+  >
+    <g
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="4"
+      style="transition: all 0.5s; transform-origin: 50% 50%; transform: scale(0);"
+    >
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+      />
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+        style="transform-origin: 50% 50%; transform: scaleX(-1);"
+      />
+    </g>
+     
+    <g
+      fill=""
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="4"
+      style="transition: all 0.5s; transform-origin: 50% 50%;"
+    >
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+      />
+      <path
+        d="M 32 14 38 26 50 26 41 35 44 47 32 40"
+        style="transform-origin: 50% 50%; transform: scaleX(-1);"
+      />
+    </g>
+  </g>
+</svg>
+`;
