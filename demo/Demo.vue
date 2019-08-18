@@ -88,6 +88,17 @@
         />
       </template>
     </ExampleSection>
+    <ExampleSection name="LockIcon">
+      <template v-slot="{ list }">
+        <LockIcon
+          v-for="(p, i) in list"
+          :key="i"
+          v-bind="p"
+          :locked="expanded"
+          @click="click"
+        />
+      </template>
+    </ExampleSection>
   </div>
 </template>
 
@@ -102,6 +113,7 @@ import DirectionArrowIcon from "../src/components/DirectionArrowIcon.vue";
 import CheckIcon from "../src/components/CheckIcon.vue";
 import CheckShapeIcon from "../src/components/CheckShapeIcon.vue";
 import PlayPauseIcon from "../src/components/PlayPauseIcon.vue";
+import LockIcon from "../src/components/LockIcon.vue";
 
 export default Vue.extend({
   components: {
@@ -113,7 +125,8 @@ export default Vue.extend({
     DirectionArrowIcon,
     CheckIcon,
     CheckShapeIcon,
-    PlayPauseIcon
+    PlayPauseIcon,
+    LockIcon
   },
   data() {
     return {

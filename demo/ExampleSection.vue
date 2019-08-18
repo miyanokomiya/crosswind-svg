@@ -39,6 +39,7 @@ export default Vue.extend({
 <style>
 h2 {
   border-bottom: 1px solid black;
+  font-size: 1.2rem;
 }
 .icon {
   width: 2rem;
