@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayPauseIcon playing:false 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+  </g>
+   
+  <g
+    fill=""
+    stroke=""
+    stroke-linecap="round"
+  >
+    <path
+      d="M 20 18 28 18 28 46 20 46z"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleY(0);"
+    />
+     
+    <path
+      d="M 36 18 44 18 44 46 36 46z"
+      style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleY(0);"
+    />
+     
+    <path
+      d="M 20 17 46 32 20 47z"
+      stroke-linejoin="round"
+      style="transform-origin: 20px 50%; transition: all 0.5s;"
+    />
+  </g>
+</svg>
+`;
+
+exports[`PlayPauseIcon playing:true 1`] = `
+<svg
+  style="transform: rotate(0); fill: currentColor; stroke: currentColor; user-select: none;"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g
+    fill="white"
+  >
+    <circle
+      cx="32"
+      cy="32"
+      r="32"
+    />
+  </g>
+   
+  <g
+    fill=""
+    stroke=""
+    stroke-linecap="round"
+  >
+    <path
+      d="M 20 18 28 18 28 46 20 46z"
+      style="transform-origin: 50% 50%; transition: all 0.5s;"
+    />
+     
+    <path
+      d="M 36 18 44 18 44 46 36 46z"
+      style="transform-origin: 50% 50%; transition: all 0.5s;"
+    />
+     
+    <path
+      d="M 20 17 46 32 20 47z"
+      stroke-linejoin="round"
+      style="transform-origin: 20px 50%; transition: all 0.5s; transform: scaleX(0);"
+    />
+  </g>
+</svg>
+`;
