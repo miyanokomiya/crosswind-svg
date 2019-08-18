@@ -26,12 +26,10 @@ exports[`DirectionArrowIcon to:d 1`] = `
       d="M 20 20 44 20"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg) scaleY(-1);"
     />
-     
     <path
       d="M 20 32 44 32"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-90deg);"
     />
-     
     <path
       d="M 20 44 44 44"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg) scaleX(-1);"
@@ -66,12 +64,10 @@ exports[`DirectionArrowIcon to:l 1`] = `
       d="M 20 20 44 20"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
     />
-     
     <path
       d="M 20 32 44 32"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-180deg);"
     />
-     
     <path
       d="M 20 44 44 44"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
@@ -106,12 +102,10 @@ exports[`DirectionArrowIcon to:r 1`] = `
       d="M 20 20 44 20"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
     />
-     
     <path
       d="M 20 32 44 32"
       style="transform-origin: 50% 50%; transition: all 0.5s;"
     />
-     
     <path
       d="M 20 44 44 44"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"
@@ -146,12 +140,10 @@ exports[`DirectionArrowIcon to:u 1`] = `
       d="M 20 20 44 20"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(45deg);"
     />
-     
     <path
       d="M 20 32 44 32"
       style="transform-origin: 50% 50%; transition: all 0.5s;"
     />
-     
     <path
       d="M 20 44 44 44"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: rotate(-45deg);"

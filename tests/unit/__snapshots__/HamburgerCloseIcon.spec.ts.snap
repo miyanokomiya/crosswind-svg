@@ -26,12 +26,10 @@ exports[`HamburgerCloseIcon expanded:false 1`] = `
       d="M 20 20 44 20"
       style="transform-origin: 50% 50%; transition: all 0.5s;"
     />
-     
     <path
       d="M 20 32 44 32"
       style="transform-origin: 50% 50%; transition: all 0.5s;"
     />
-     
     <path
       d="M 20 44 44 44"
       style="transform-origin: 50% 50%; transition: all 0.5s;"
@@ -66,12 +64,10 @@ exports[`HamburgerCloseIcon expanded:true 1`] = `
       d="M 20 20 44 20"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: translateY(12px);"
     />
-     
     <path
       d="M 20 32 44 32"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: scaleX(0);"
     />
-     
     <path
       d="M 20 44 44 44"
       style="transform-origin: 50% 50%; transition: all 0.5s; transform: translateY(-12px);"

@@ -1,23 +1,11 @@
 <template>
   <SvgFlame v-bind="{ shape, rotate, inverse, duration }" v-on="$listeners">
     <template #default="{ black, white, transition }">
-      <g stroke-width="4" :stroke="black" stroke-linecap="round">
-        <path
-          d="M 20 20 44 20"
-          style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: transformSet.top }"
-        />
-        <path
-          d="M 20 32 44 32"
-          style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: transformSet.middle }"
-        />
-        <path
-          d="M 20 44 44 44"
-          style="transform-origin: 50% 50%;"
-          :style="{ transition, transform: transformSet.bottom }"
-        />
-      </g>
+      <HamburgerLines
+        :stroke="black"
+        :transition="transition"
+        :transforms="transforms"
+      />
     </template>
   </SvgFlame>
 </template>
@@ -25,9 +13,11 @@
 <script lang="ts">
 import Vue from "vue";
 import SvgFlame from "./SvgFlame.vue";
+import HamburgerLines from "./parts/HamburgerLines";
+import { HamburgerLineTransforms } from "../../types/index";
 
 export default Vue.extend({
-  components: { SvgFlame },
+  components: { SvgFlame, HamburgerLines },
   props: {
     shape: String,
     rotate: String,
@@ -36,7 +26,7 @@ export default Vue.extend({
     expanded: { type: Boolean, default: false }
   },
   computed: {
-    transformSet(): { top: string; middle: string; bottom: string } {
+    transforms(): HamburgerLineTransforms {
       if (this.expanded)
         return {
           top: "rotate(-45deg)",

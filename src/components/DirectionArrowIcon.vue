@@ -1,14 +1,32 @@
+<template>
+  <SvgFlame v-bind="{ shape, rotate, inverse, duration }" v-on="$listeners">
+    <template #default="{ black, white, transition }">
+      <HamburgerLines
+        :stroke="black"
+        :transition="transition"
+        :transforms="transforms"
+      />
+    </template>
+  </SvgFlame>
+</template>
+
 <script lang="ts">
-import HamburgerArrowIcon from "./HamburgerArrowIcon.vue";
+import Vue from "vue";
+import SvgFlame from "./SvgFlame.vue";
+import HamburgerLines from "./parts/HamburgerLines";
+import { HamburgerLineTransforms, ToType } from "../../types/index";
 
-type ToType = "t" | "r" | "b" | "l";
-
-export default HamburgerArrowIcon.extend({
+export default Vue.extend({
+  components: { SvgFlame, HamburgerLines },
   props: {
+    shape: String,
+    rotate: String,
+    inverse: Boolean,
+    duration: String,
     to: { type: String as Vue.PropType<ToType>, default: "r" }
   },
   computed: {
-    transformSet(): { top: string; middle: string; bottom: string } {
+    transforms(): HamburgerLineTransforms {
       if (this.to === "t")
         return {
           top: "rotate(45deg) scaleX(-1)",
