@@ -44,7 +44,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",
-    "lint-staged": "^9.2.1",
+    "lint-staged": "^9.2.3",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.3",
