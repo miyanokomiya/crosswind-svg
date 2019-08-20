@@ -22,7 +22,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "demo": "vue-cli-service demo",
-    "demo:build": "sh demo-build.sh",
+    "demo:build": "vue-cli-service demo --demo build",
     "test": "vue-cli-service test:unit --coverage"
   },
   "dependencies": {
