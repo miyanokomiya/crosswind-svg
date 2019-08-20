@@ -22,7 +22,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "demo": "vue-cli-service demo",
-    "demo:build": "sh demo-build.sh",
+    "demo:build": "vue-cli-service demo --mode build",
     "test": "vue-cli-service test:unit --coverage"
   },
   "dependencies": {
@@ -48,7 +48,7 @@
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.3",
-    "vue-cli-plugin-p11n": "^0.3.0",
+    "vue-cli-plugin-p11n": "^0.4.0",
     "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {

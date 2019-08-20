@@ -25,7 +25,7 @@ yarn build
 
 ### Compiles demo for production
 ```sh
-sh demo-build.sh
+yarn demo:build
 ```
 
 ### Run tests
