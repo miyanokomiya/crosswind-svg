@@ -46,7 +46,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^10.0.1",
     "prettier": "^1.19.1",
-    "ts-jest": "^24.1.0",
+    "ts-jest": "^24.3.0",
     "typescript": "^3.7.2",
     "vue-cli-plugin-p11n": "^0.4.0",
     "vue-template-compiler": "^2.6.10"
